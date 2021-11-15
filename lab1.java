@@ -23,6 +23,8 @@ public class Main {
             System.out.print("Наименьшее число " + n3);
         else if (n4 < n1 && n4 < n2 && n4 < n3)
             System.out.print("Наименьшее число " + n4);
+        else if (n1 == n2 && n2 == n3 && n3 == n4);
+            System.out.print("Нет наименьшего числа, числа равны");
 
     }
 }
