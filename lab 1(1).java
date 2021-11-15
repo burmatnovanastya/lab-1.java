@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.print("Ведите число месяца: ");
+        System.out.print("Введите число месяца: ");
         int number = s.nextInt();
         if (number == 1 || number == 2 || number == 12){
             System.out.println("Зима");
