@@ -14,7 +14,6 @@ public class Main {
         System.out.println("Ведите 4 число: ");
         int n4 = s.nextInt();
 
-
         if (n1 < n2 && n1 < n3 && n1 < n4)
             System.out.print("Наименьше число " + n1);
         else if (n2 < n1 && n2 < n3 && n2 < n4)
