@@ -5,17 +5,17 @@ public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Ведите 1 число: ");
+        System.out.println("Введите 1 число: ");
         int n1 = s.nextInt();
-        System.out.println("Ведите 2 число: ");
+        System.out.println("Введите 2 число: ");
         int n2 = s.nextInt();
-        System.out.println("Ведите 3 число: ");
+        System.out.println("Введите 3 число: ");
         int n3 = s.nextInt();
-        System.out.println("Ведите 4 число: ");
+        System.out.println("Введите 4 число: ");
         int n4 = s.nextInt();
 
         if (n1 < n2 && n1 < n3 && n1 < n4)
-            System.out.print("Наименьше число " + n1);
+            System.out.print("Наименьшее число " + n1);
         else if (n2 < n1 && n2 < n3 && n2 < n4)
             System.out.print("Наименьшее число " + n2);
         else if (n3 < n1 && n3 < n2 && n3 < n4)
